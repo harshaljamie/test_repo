@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CHRDEV_COUNT	test_driver_code.c	12;"	d	file:
+CHRDEV_FIRST	test_driver_code.c	11;"	d	file:
+cdev	test_driver_code.c	/^    struct cdev cdev;$/;"	m	struct:test_device_data	typeref:struct:test_device_data::cdev	file:
+f_o	test_driver_code.c	/^const struct file_operations f_o$/;"	s	file:
+name	test_driver_code.c	/^const char *name = "test_char_driver";$/;"	v
+test_Major	test_driver_code.c	8;"	d	file:
+test_Minor	test_driver_code.c	9;"	d	file:
+test_device_data	test_driver_code.c	/^struct test_device_data$/;"	s	file:
+test_driver_code_exit	test_driver_code.c	/^static void test_driver_code_exit(void)$/;"	f	file:
+test_driver_code_init	test_driver_code.c	/^static int test_driver_code_init(void)$/;"	f	file:
+test_open	test_driver_code.c	/^static int test_open(struct inode *test_inode_p,struct file *test_file_p)$/;"	f	file:
+test_read	test_driver_code.c	/^static size_t test_read(struct file *test_read , char __user *test_user,size_t test_size , loff_t *test_offset)$/;"	f	file:
+test_release	test_driver_code.c	/^static int test_release(struct inode *test_inode,struct file *test_file)$/;"	f	file:
+test_write	test_driver_code.c	/^static size_t test_write(struct file *test_write , const char __user *test_user, loff_t *test_offset)$/;"	f	file:
